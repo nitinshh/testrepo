@@ -1,0 +1,111 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+#top {
+    background-image: url(../images/coffee-shops.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-image {
+    text-align: center;
+    width: auto;
+}
+
+img{
+    width: 40%;
+    object-fit: contain;
+}
+
+.top-button {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* Navbar Section */
+
+.navbar {
+    padding: 3% 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#speciality {
+    padding: 5% 12%;
+    background-color: wheat;
+    font-family: 'Mukta', sans-serif;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon:hover {
+    color: brown;
+}
+
+#pricing {
+    padding: 70px;
+    text-align: center;
+    background-color: wheat;
+}
+   
+.pricing-column {
+    padding: 3% 1%;
+    text-align: center;
+}
+
+#about {
+    background-image: url(../images/9833e22c4361d1185913336f82046a43.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about-text {
+    color: #000;
+    font-family: 'Fredoka', sans-serif;
+    padding: 15% 15%;
+
+}
+
+.quote {
+    text-align: right;
+    font-weight: 3.5remm;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: wheat;
+    text-align: center;
+    padding: 1%;
+    line-height: 1.5;
+}
+
+.signs {
+    margin: 20px 10px;
+}
+
+@media  (max-width: 992px) {
+ 
+.about-text {
+    padding: 15% 3%;
+}    
+}
